@@ -63,3 +63,57 @@ font-family: Helvetica;
 font-family: 'Courier New';
 }
 
+
+/*Size e Weight*/
+
+.tamanho-fonte-grande {
+font-size: 64px;
+}
+
+.tamanho-fonte-pequena {
+font-size: 12px;
+}
+
+.peso-fonte {
+font-weight: 700;
+}
+.peso-italico {
+font-style: italic;
+}
+
+/*Box Model*/
+
+.box-model {
+width: 200px;
+height: 100px;
+border: 1px solid blue;
+padding: 20px;
+margin: 20px;
+}
+
+/*Propriedades de texto*/
+
+.alinhamento {
+text-align: center;
+
+}
+
+.transform-maiuscula {
+text-transform: lowercase;
+}
+
+.transform-minuscula {
+text-transform: uppercase;
+}
+
+/*Espaçamento de linhas e letras*/
+
+.espacamento-texto {
+   width: 150px;
+   line-height:40px;
+   letter-spacing:8px;
+}
+
+/*Links*/
+
+
