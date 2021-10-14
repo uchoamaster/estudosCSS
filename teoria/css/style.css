@@ -116,4 +116,41 @@ text-transform: uppercase;
 
 /*Links*/
 
+.decoration-link {
+text-decoration: none;
 
+}
+
+.visitado:visited {
+color: orange;
+}
+.estilo-hover:hover {
+background-color: #1292ae;
+}
+
+/*Link em Button*/
+
+.botao {
+background-color: #34ae43;
+border: 3px solid #0d1013;
+border-radius: 5px;
+color: #fff;
+text-decoration: none;
+display: block;
+width: 120px;
+padding: 12px 7px ;
+text-align: center;
+margin: 20px;
+transition: .5s;
+}
+
+.botao:hover {
+background-color: #234966;
+}
+
+/*Listas*/
+
+.sem-estilo {
+
+list-style: none;
+}
