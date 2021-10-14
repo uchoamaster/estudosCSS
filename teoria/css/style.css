@@ -4,3 +4,44 @@ body{
 p{
     color:green;
 }
+
+/* Classes e Ids */
+
+
+.meu-paragrafo {
+background-color: black;
+color: #fff;
+}
+
+#titulo-principal {
+background-color: yellow;
+color: black;
+padding: 10px;
+font-family: Helvetica;
+}
+
+/* Seletores para todos os tipos de elementos e listas */
+
+* {
+    font-family: Arial;
+}
+
+p, h1 {
+border-bottom: 1px solid red;
+}
+
+/*Cores*/
+
+.nome-da-cor {
+color: pink
+}
+
+.hexa {
+color: #99a8e9;
+background-color: #333;
+}
+
+.rgb{
+color:rgb(100,95,44);
+}
+
