@@ -197,3 +197,14 @@ font-size: bold;
 
 
 /*Pseudo Elementos*/
+
+.primeira-letra::first-letter {
+
+font-size:40px;
+color:blue;
+background-color:red;
+padding:4px;
+}
+
+/*Especifidade do css*/
+
