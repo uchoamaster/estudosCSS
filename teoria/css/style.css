@@ -158,3 +158,33 @@ list-style: none;
 
 /* Display*/
 
+.inline {
+width: 50px;
+height: 50px;
+background-color: teal;
+margin: 5px;
+display:inline-block;
+}
+.bloco {
+display: block;
+}
+
+.hidden{
+
+    display: none;
+}
+
+/*Position Fixed*/
+
+.elemento-fixo {
+
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+padding: 15px;
+text-align: center;
+background-color: #1292ae;
+border-bottom: 2px solid #342299;
+color: #fff;
+}
