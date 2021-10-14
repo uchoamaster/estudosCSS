@@ -188,3 +188,12 @@ background-color: #1292ae;
 border-bottom: 2px solid #342299;
 color: #fff;
 }
+
+/*Pseudo seletor*/
+.primeiro-elemento p:first-child{
+color:purple;
+font-size: bold;
+}
+
+
+/*Pseudo Elementos*/
