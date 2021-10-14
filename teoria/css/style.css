@@ -208,3 +208,19 @@ padding:4px;
 
 /*Especifidade do css*/
 
+h2 {
+    color:red;
+}
+.titulo {
+color: green;
+}
+
+#meu-titulo-preferido {
+
+color:blue;}
+
+/*regra important*/
+
+h2 {
+color:black !important;
+}
