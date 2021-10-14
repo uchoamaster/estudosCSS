@@ -1,8 +1,10 @@
 body{
     padding: 20px;
+    padding-bottom: 500px;
     }
 p{
     color:green;
+    font-size: 30px;
 }
 
 /* Classes e Ids */
@@ -43,5 +45,21 @@ background-color: #333;
 
 .rgb{
 color:rgb(100,95,44);
+}
+
+/*Fontes*/
+
+.serifada {
+font-family: Georgia;
+}
+
+
+.sem-serifa {
+font-family: Helvetica;
+}
+
+
+.mono-espacada {
+font-family: 'Courier New';
 }
 
