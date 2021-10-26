@@ -13,10 +13,25 @@
 
     <!-- cabe�alho -->
     <header>
-        <h1>Galeria dos Sneakers</h1>
+        <div class="logo"></div>
+        <ul class="menu">
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Contato</a></li>
+
+        </ul>
     </header>
+
+
     <!-- Grid de Produtos -->
     <main class="container">
+        <div class="wrapper">
+      
+            <form action="#">
+              <input type="text" placeholder="Digite seu produto aqui ..." />
+              <button>Search</button>  
+            </form>
+          </div>
         <section class="products-container">
             <div class="card">
                 <div class="product-image" id="img-1"></div>
@@ -69,6 +84,9 @@
             
         </section>
     </main>
+    <a href="https://api.whatsapp.com/send?phone=51000000000&text=olá" class="whatsapp-button" target="_blank" style="position: fixed;  right: 15px; bottom: 15px;">
+        <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp">
+      </a>
     <!-- Rodap� -->
     <footer>
         <p> <span class="bold">Galeria dos Sneakers</span>
